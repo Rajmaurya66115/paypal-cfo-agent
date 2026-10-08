@@ -1,1 +1,22 @@
-{"name":"paypal-cfo-frontend","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite"},"dependencies":{"ag-grid-community":"^36.2.0","ag-grid-react":"^36.2.0","axios":"^1.20.0","react":"^19.3.0","react-dom":"^19.3.0"},"devDependencies":{"@vitejs/plugin-react":"^6.1.2","vite":"^8.3.4"}}
+{
+  "name": "paypal-cfo-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npx vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ag-grid-community": "^36.2.0",
+    "ag-grid-react": "^36.2.0",
+    "axios": "^1.20.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  }
+}

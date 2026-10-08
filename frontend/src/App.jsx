@@ -99,13 +99,11 @@ export default function App() {
     setEvaluationResult(null);
 
     try {
-     
-const res = await axios.post('https://paypal-cfo-backend.onrender.com/api/agent/evaluate-invoice', {
+      const res = await axios.post('/api/agent/evaluate-invoice', {
   serviceName,
   amount: parseFloat(amount),
   description: `Autonomous evaluation for ${serviceName}`
 });
-      });
 
       setEvaluationResult(res.data);
 
